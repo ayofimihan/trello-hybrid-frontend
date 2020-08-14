@@ -1,0 +1,8 @@
+- User can login -> Login Page
+- User can register -> Registration Page
+- User can reset password -> Password Reset Page
+- User can go home -> Home Page
+- User can see profile -> Profile Page
+- User can see all projects -> Projects page
+- User can see specific project -> Single Project page
+- User can create a new Project -> Create Project Page
