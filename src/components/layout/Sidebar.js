@@ -37,6 +37,7 @@ const SideBar = () => {
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
+            style={{ marginRight: 25 }}
             className={clsx(classes.menuButton, {
               [classes.hide]: open
             })}
@@ -79,7 +80,7 @@ const SideBar = () => {
             <ChevronLeftIcon />
           </IconButton>
         </div>
-        <Divider />
+        <Divider style={{ background: '#fff' }} />
         <Routes />
       </Drawer>
     </>

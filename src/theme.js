@@ -26,7 +26,8 @@ export const theme = createMuiTheme({
           textTransform: 'none',
           textDecoration: 'none',
           color: 'inherit'
-        }
+        },
+        '.MuiPaper-root.MuiDrawer-paper': { background: '#111111', backgroundColor: '#111111', color: '#fff' }
       }
     }
   },
